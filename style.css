@@ -1,0 +1,83 @@
+body {
+    background-color: #0d0d0d; 
+    color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+.container {
+    text-align: center;
+}
+
+#timer {
+    font-size: 72px;
+    color: #ff6633; 
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 2px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 350px; 
+    margin: 0 auto 20px;
+}
+
+button {
+    font-size: 20px;
+    height: 100px;
+    width: 100px; 
+    border-radius: 50%; 
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+#lap {
+    background-color: #333; 
+    color: #ccc; 
+    border: 3px solid #555; 
+}
+
+#start {
+    background-color: #333; 
+    color: #ff6633; 
+    border: 3px solid #ff6633;
+}
+
+button.stop {
+    background-color: #4d0000; 
+    color: #ff9999; 
+    border: 3px solid #ff0000; 
+}
+
+#laps {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+#laps li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0; 
+    border-top: 1px solid #555;
+    color: #fff;
+}
+
+#laps li span {
+    color: #fff; 
+}
+
+#laps li:nth-child(odd) {
+    background-color: #1a1a1a; 
+}
